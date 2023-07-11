@@ -2,7 +2,6 @@ const server = require("./src/server");
 const { Character } = require("./src/database");
 
 // Character.list().then(res => console.log(res));
-Character.get(1).then(res => console.log(res));
 
 const PORT = 8004;
 
