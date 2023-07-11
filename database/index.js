@@ -7,5 +7,5 @@ Character.get(1).then(res => console.log(res));
 const PORT = 8004;
 
 server.listen(PORT, ()=> {
-    console.log(`Characters service listening on port ${PORT}`);
+    console.log(`Database service listening on port ${PORT}`);
 })
